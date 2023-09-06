@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+:root {
+    --container-max-width: 1200px;
+    --nav-height: 50px; 
+    --nav-text-color: var(--grey); 
+    --nav-text-color-hover: var(--white); 
+    --nav-bg: var(--dark-transparent); 
+    --nav-hover-bottom: var(--darkblue); 
+}
+
+body {
+    font-family: 'Prompt';
+    background: url('../image/OBDPMU0.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.grid-choice {
+    grid-template-columns: 20px 95%;
+}
+.grid-choice span {
+}
+
+input[type="radio"] {
+    -webkit-appearance: radio !important;
+    margin: 2px;
+}
